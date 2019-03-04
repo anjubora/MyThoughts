@@ -1,0 +1,40 @@
+.nav-item {
+    font-size:20px;
+    margin-right:20px;
+}
+
+.nav-item:hover {
+    background-color:greenyellow;
+}
+
+.carousel-item{
+    height:550px;
+    width:100%;
+    margin :0px auto;
+    border: solid 1px;
+}
+.slider{
+    height:100%;
+    width:100%
+}
+.login{
+    height:600px;
+    width:100%;
+    margin:0px auto;
+    background-image: url('../images/flower.jpg');
+    background-size:cover;
+    background-repeat: no-repeat; 
+    
+}
+
+
+.writequote{
+    height:600px;
+    width:100%;
+    margin:0px auto;
+    background-image: url('../images/writing.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+
+}

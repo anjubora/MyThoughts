@@ -1,0 +1,28 @@
+<div class="container-fluid " style="height:auto;">
+    <div >
+        <center><h1 style="font-family: 'Great Vibes', cursive; font-style:bold;font-size:70px;color:red;">Quotes</h1></center>
+    </div>
+    <%quotearray.forEach((post)=>{
+        console.log(post.date)
+        var date=new Date(parseInt(post.date));
+        var d=date.toDateString()      ;   
+        console.log(d)  
+        
+    %>
+<div  class="card card-body bg-light" style="margin-top:20px;">
+    <blockquote class="blockquote">
+   <h1 style="font-family: 'Great Vibes', cursive;">“<%=post.quote%>”</h1>
+  <p> <footer class="blockquote-footer text-right">Posted by <cite><%=post.postedby.name%></cite></footer></p>
+  <p class="text-right"><%=d%></p>
+   </blockquote>
+</div>
+
+
+   <% 
+     })%>
+    
+    
+
+
+    
+    </div>
