@@ -1,6 +1,10 @@
 # MY THOUGHTS
 
-<p>It is a node js application for reading and writing the quotes.The user have to register and login first to access the application.The user can manage its dashboard through which he/she can delete or edit the posted quotes.</p>
+<p>It is a node js application for reading and writing the quotes.</p>
+* the user have to register and login first.
+* after the successfully login the user can read the quotes.
+* the users can write their views or quotes here too.
+* they can manage their quotes by their dashboard.From dashboard the user can edit their posted quotes and can also delete it.
  
 ## It uses :-
 * nodejs (https://nodejs.org/)
