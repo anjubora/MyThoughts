@@ -89,9 +89,11 @@ else{
 
 //login handle
 router.post('/login', function(req, res, next) {
+
     passport.authenticate('local', { successRedirect: '/quotes/getquotes',
     failureRedirect: '/users/login',
     failureFlash: true })(req, res, next);
+    
   });
 
   router.get('/logout', (req, res) => {

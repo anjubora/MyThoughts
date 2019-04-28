@@ -8,12 +8,13 @@ var mongoose=require('mongoose')
 const {ensureAuthenticated} = require('../config/auth')
 
 router.get('/getquotes',ensureAuthenticated,(req,res)=>{
+    console.log(req.user);
 
     var quotearray=[];
     quote.find()
     .populate('postedby')
     .exec(function(error, post) {
-        console.log(typeof post)
+      
         quotearray=post;
       
        
