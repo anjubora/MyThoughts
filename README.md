@@ -11,7 +11,7 @@
 * css 
 * bootstrap
 
-![mythoughts](https://user-images.githubusercontent.com/44833963/56863770-118fcd00-69d8-11e9-8efa-c934f5edbd79.png)
+![mythoughts](https://user-images.githubusercontent.com/44833963/56863914-19507100-69da-11e9-85aa-8e5572ba1fb7.png)
 
 You can see a hosted version of `My thoughts app` at (https://mythoughtsbouraanju.herokuapp.com/)
 ## Requirements
