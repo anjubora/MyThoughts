@@ -13,8 +13,7 @@
 
 ![mythoughts](https://user-images.githubusercontent.com/44833963/56863770-118fcd00-69d8-11e9-8efa-c934f5edbd79.png)
 
-You can see a hosted version of `My thoughts app` on <a href="https://mythoughtsbouraanju.herokuapp.com/" target="_blank">Heroku</a>.
-
+You can see a hosted version of `My thoughts app` at  <a href="https://mythoughtsbouraanju.herokuapp.com/"></a>
 ## Requirements
 
 * Node 8
