@@ -10,6 +10,7 @@
 * nodejs (https://nodejs.org/)
 * mongodb (https://www.mongodb.com/)
 * passport.js (http://www.passportjs.org/)
+* nodemailer(https://nodemailer.com)
 * ejs templating engine (https://ejs.co/)
 * html 
 * css 
